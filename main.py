@@ -2,12 +2,14 @@ def main():
     """
     ##################################################
     # Comlete your code here
-    Use the same variables: celcius fahrenheit 
+    Use the same variables: celsius fahrenheit 
     ##################################################
     """
-    celcius = input()
+    # celsius = input()
+    # 
+    celsius = float(input())
 
-    fahrenheit = float(celcius) * 9/5 + 32
+    fahrenheit = float(celsius) * 9/5 + 32
 
     print(fahrenheit)
     """
@@ -15,7 +17,9 @@ def main():
     # Do not delete the return statement
     ########################################
     """
-    return celcius, fahrenheit
+
+    # return value should be float or int value
+    return celsius, fahrenheit
 
 
 if __name__ == '__main__':
